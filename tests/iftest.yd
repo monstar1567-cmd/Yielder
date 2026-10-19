@@ -1,0 +1,9 @@
+main {
+    if 1 > 2 {
+        print true;
+    } elseif 1 < 2 {
+        print false;
+    } else {
+        print none;
+    }
+}

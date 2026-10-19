@@ -1,0 +1,18 @@
+main {
+    var x = 12^2;
+
+    match x {
+        case 143 {
+            print "What";
+        }
+        case 144 {
+            print "OK";
+        }
+        case "144" {
+            print "Thats a string";
+        }
+        fails {
+            print "Nevermind";
+        }
+    }
+}

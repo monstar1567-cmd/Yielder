@@ -1,0 +1,7 @@
+main {
+    func model(x, y) {
+        rtn x mod y > x xor y ^ x < x;
+    }
+
+    print model(7, 28);
+}

@@ -1,0 +1,10 @@
+main {
+    print not true;
+    print not false;
+    print true or false;
+    print true and false;
+    print true xor false;
+    print true nor false;
+    print true nand false;
+    print true xnor false;
+}
